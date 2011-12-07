@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'httparty'
-require 'json'
+require 'yajl/json_gem'
 
 before do
   content_type :json 	
