@@ -1,2 +1,2 @@
-require 'xml2json'
+require './xml2json'
 run Sinatra::Application
